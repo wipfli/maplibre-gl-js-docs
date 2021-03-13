@@ -134,33 +134,33 @@ function PageHelmet() {
   }), React.createElement("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/apple-touch-icon.png?v=gAd4JjrGWl"
+    href: "/maplibre-gl-js-docs/favicon/apple-touch-icon.png?v=WGN7r7GKzM"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/favicon-32x32.png?v=gAd4JjrGWl"
+    href: "/maplibre-gl-js-docs/favicon/favicon-32x32.png?v=WGN7r7GKzM"
   }), React.createElement("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/favicon-16x16.png?v=gAd4JjrGWl"
+    href: "/maplibre-gl-js-docs/favicon/favicon-16x16.png?v=WGN7r7GKzM"
   }), React.createElement("link", {
     rel: "manifest",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/site.webmanifest?v=gAd4JjrGWl"
+    href: "/maplibre-gl-js-docs/favicon/site.webmanifest?v=WGN7r7GKzM"
   }), React.createElement("link", {
     rel: "mask-icon",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/safari-pinned-tab.svg?v=gAd4JjrGWl",
+    href: "/maplibre-gl-js-docs/favicon/safari-pinned-tab.svg?v=WGN7r7GKzM",
     color: "#4264fb"
   }), React.createElement("link", {
     rel: "shortcut icon",
-    href: "https://static-assets.mapbox.com/branding/favicon/v1/favicon.ico?v=gAd4JjrGWl"
+    href: "/maplibre-gl-js-docs/favicon/favicon.ico?v=WGN7r7GKzM"
   }), React.createElement("meta", {
     name: "msapplication-TileColor",
     content: "#ffffff"
   }), React.createElement("meta", {
     name: "msapplication-config",
-    content: "https://static-assets.mapbox.com/branding/favicon/v1/browserconfig.xml?v=gAd4JjrGWl"
+    content: "/maplibre-gl-js-docs/favicon/browserconfig.xml?v=WGN7r7GKzM"
   }), React.createElement("meta", {
     name: "theme-color",
     content: "#ffffff"
