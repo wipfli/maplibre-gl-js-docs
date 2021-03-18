@@ -1,10 +1,11 @@
 <div id="map"></div>
 <script>
-    var map = (window.map = new mapboxgl.Map({
+    var map = (window.map = new maplibregl.Map({
         container: 'map',
         zoom: 3,
         center: [7.5, 58],
-        style: 'mapbox://styles/mapbox/light-v10',
+        style:
+            'https://api.maptiler.com/maps/streets/style.json?key=olPbAXB9QkZuFSDG4x2V',
         antialias: true // create the gl context with MSAA antialiasing, so custom layers are antialiased
     }));
 
@@ -51,15 +52,15 @@
             this.aPos = gl.getAttribLocation(this.program, 'a_pos');
 
             // define vertices of the triangle to be rendered in the custom style layer
-            var helsinki = mapboxgl.MercatorCoordinate.fromLngLat({
+            var helsinki = maplibregl.MercatorCoordinate.fromLngLat({
                 lng: 25.004,
                 lat: 60.239
             });
-            var berlin = mapboxgl.MercatorCoordinate.fromLngLat({
+            var berlin = maplibregl.MercatorCoordinate.fromLngLat({
                 lng: 13.403,
                 lat: 52.562
             });
-            var kyiv = mapboxgl.MercatorCoordinate.fromLngLat({
+            var kyiv = maplibregl.MercatorCoordinate.fromLngLat({
                 lng: 30.498,
                 lat: 50.541
             });
