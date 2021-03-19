@@ -99,12 +99,13 @@
 
 <script>
     var center = [-77.01866, 38.888];
-    var map = new mapboxgl.Map({
+    var map = new maplibregl.Map({
         container: 'map',
         zoom: 12.5,
         center: center,
         pitch: 60,
-        style: 'mapbox://styles/mapbox/streets-v11'
+        style:
+            'https://api.maptiler.com/maps/streets/style.json?key=olPbAXB9QkZuFSDG4x2V'
     });
 
     new mapboxgl.Marker().setLngLat(center).addTo(map);
