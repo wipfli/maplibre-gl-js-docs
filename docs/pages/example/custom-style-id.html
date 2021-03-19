@@ -1,8 +1,9 @@
 <div id="map"></div>
 <script>
-    var map = new mapboxgl.Map({
+    var map = new maplibregl.Map({
         container: 'map', // container id
-        style: 'mapbox://styles/examples/cke97f49z5rlg19l310b7uu7j', // custom style url from https://studio.mapbox.com/
+        style:
+            'https://api.maptiler.com/maps/streets/style.json?key=olPbAXB9QkZuFSDG4x2V', // custom style url from https://studio.mapbox.com/
         center: [41, 21], // starting position
         zoom: 3 // starting zoom
     });
