@@ -1,0 +1,21 @@
+name: deploy-to-github-pages
+
+on: 
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - run: yarn
+    - run: git submodule update --init
+    - run: npm run build
+    - run: npm install gh-pages
+    - run: npm run deploy
